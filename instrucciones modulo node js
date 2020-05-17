@@ -1,0 +1,48 @@
+Instalar extensiones en vscode
+
+ES7 React/Redux/GraphQL/React-Native snippets
+Simple React Snippets
+
+Usar template
+https://cdnjs.com/
+- skeleton
+- 
+
+	
+TIDevEx18.65
+
+ 
+ 
+ Node JS
+ Sequelize ORM
+ 
+ cd introNodeJS
+ npm init
+prueba de datos fsfs
+ --- definir todas las variables
+ npm install --save nodemon body-parser express
+ 
+		 body-parser, requerido para presentar ciertas cosas
+		 express, es el servidor
+		 nodemon, detecta cambios y los refleja (como liveserver)
+ 
+ npm intall, toma el archivo package.json e instala todas las dependencias
+ 
+ 
+ npm run start // iniciar servidor
+ 
+ ctr + c para detener el servidor
+ 
+ npm install --save pug
+ 
+ https://html2jade.org/
+ https://fonts.google.com/
+ 
+ 
+ npm start env --production   (para iniciar el ambiente de produccion)
+ 
+ 
+npm install --save mysql2 sequelize
+
+npm install --save-dev dotenv
+
