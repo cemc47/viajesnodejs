@@ -46,3 +46,23 @@ npm install --save mysql2 sequelize
 
 npm install --save-dev dotenv
 
+5a8ddc97
+viajesnodejs
+
+// crear app heroku
+heroku create --remote production
+
+luego cargar de git a heroku
+git push production master
+
+respaldar BD
+
+mysqldump -u root -p agenciadeviajes > agenciadeviajes.sql
+
+// saber informacion de la BD
+heroku config |  grep CLEARDB_DATABASE_URL
+
+ pasar base de datos
+
+Get-Content agenciadeviajes.sql | mysql -u b4116be23cc38a -h us-cdbr-east-06.cleardb.net -p heroku_9e05db16301dd90
+Get-Content agenciadeviajes.sql | mysql -u b4116be23cc38a -h us-cdbr-east-06.cleardb.net -p heroku_9e05db16301dd90

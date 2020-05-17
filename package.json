@@ -4,7 +4,7 @@
   "description": "Aprendiendo Node JS Express y Sequelize",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon server",
+    "dev": "nodemon server",
     "start": "node server"
   },
   "keywords": [
@@ -19,9 +19,7 @@
     "mysql2": "^2.1.0",
     "nodemon": "^2.0.3",
     "pug": "^2.0.4",
-    "sequelize": "^5.21.8"
-  },
-  "devDependencies": {
+    "sequelize": "^5.21.8",
     "dotenv": "^8.2.0"
   }
 }
