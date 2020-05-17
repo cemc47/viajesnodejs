@@ -66,3 +66,10 @@ heroku config |  grep CLEARDB_DATABASE_URL
 
 Get-Content agenciadeviajes.sql | mysql -u b4116be23cc38a -h us-cdbr-east-06.cleardb.net -p heroku_9e05db16301dd90
 Get-Content agenciadeviajes.sql | mysql -u b4116be23cc38a -h us-cdbr-east-06.cleardb.net -p heroku_9e05db16301dd90
+
+
+-- actualziar archivos
+git add .
+git commit -m "actualziar"
+git push origin master
+git push production master    ///// esto pasa a heroku
